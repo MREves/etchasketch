@@ -1,0 +1,71 @@
+
+/* 
+------------------------------
+SET UP STYLES FOR DEFAULT TAGS
+------------------------------ 
+*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 960px;
+}
+
+h1 {
+  font-size: xx-large;
+  color: navy
+}
+
+h2 {
+  font-size: xx-large;
+  color: rgb(184, 115, 51); /* RGB value for copper */
+}
+
+/* 
+------------------------------
+SET UP IDs
+------------------------------ 
+*/
+
+#mainContainer {
+  /* flexbox parameters */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+
+  /* dimensions */
+  width: 960px;
+  height: 960px;
+  
+  /* border and margin parameters */
+  border-color: darkgrey;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+  margin-bottom: 5px; /* Add margin between each div */
+
+}
+
+/* 
+------------------------------
+SET UP CLASSES
+------------------------------ 
+*/
+
+.div-container {
+  border: solid;
+  border-width: 1px;
+  margin-bottom: 5px;
+  border-color: darkgrey;
+
+  /* width: calc((960px - (4 * 10px)) / 5); /* Calculate width for each box */
+  /* height: calc((960px - (4 * 10px)) / 5); Calculate height for each box */
+  box-sizing: border-box; /* Include border width in box dimensions */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+}

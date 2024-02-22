@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch-A-Sketch</title>
+  <!-- link to the style sheet in head tag -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <h1>Etch-a-Sketch Project</h1>
+  
+  <h2>Project Brief:</h2>
+  <ol>
+    <li>Create a page with 16x16 grid of square divs, using js</li>
+    <li>Put these divs inside another 'container' div (which <em>is</em> directly in the html file)</li>
+    <li>Use flexbox to make the divs appear as a grid (and not one per line) - careful with borders/margins as these adjust size of the squares</li>
+    <li>Set up a hover effect so the grid divs change colour when mouse passes over them, leaving a pixelated trail through the grid like a pen would</li>
+    <li>Add a button to top of screen that sends user a popup asking for number of squares per side for the new grid. Once entered, the default grid should be removed and replaced with a new grid, generated in the same total space as before (e.g. 960 px wide), so you have a new sketch pad. Limit the user input to max 100 squares.</li>
+  </ol>
+  
+  <h2>Extra credit:</h2>
+  <ol>
+    <li>Rather than colour change from black to white, each interaction should randomize the square's RGB value entirely</li>
+    <li>Implement a progressive darkening effect where each interaction adds 10% more black or colour to the square. Objective is to achieve a completely black square only after 10 interactions.</li>
+  </ol>
+  
+  <h2>Project response:</h2>
+  <div id="mainContainer">
+    <!-- container into which the other containers will be placed via the js file -->
+
+  </div>
+
+  <!-- link to external javascript file -->
+  <script src="main.js"></script>
+
+</body>
+</html>
