@@ -41,9 +41,22 @@ SET UP IDs
   border-color: darkgrey;
   border-width: 1px;
   border-style: solid;
-  padding: 10px;
-  margin-bottom: 5px; /* Add margin between each div */
+  /* padding: 10px; */
+  /* margin-bottom: 5px; Add margin between each div */
 
+}
+
+#colorMethod {
+  margin: 0px 10px 20px 0px;
+  background-color: navy;
+  color: white;
+  outline: 0;
+  font: inherit;
+  padding: 4px;
+  font-style: italic;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, navy , rgb(184, 115, 51));
+  box-shadow: 7px 7px 2px lightgray;
 }
 
 /* 
@@ -55,7 +68,7 @@ SET UP CLASSES
 .div-container {
   border: solid;
   border-width: 1px;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   border-color: darkgrey;
 
   /* width: calc((960px - (4 * 10px)) / 5); /* Calculate width for each box */
@@ -69,3 +82,4 @@ SET UP CLASSES
   justify-content: space-between;
   align-items: space-between;
 }
+
